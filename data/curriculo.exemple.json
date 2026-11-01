@@ -1,0 +1,47 @@
+{
+  "dados_pessoais": {
+    "nome": "Nome Sobrenome",
+    "email": "email@exemplo.com",
+    "cidade": "Cidade, UF",
+    "links": ["linkedin.com/in/usuario", "github.com/usuario"]
+  },
+  "formacao": [
+    {
+      "curso": "Ciência da Computação",
+      "instituicao": "Instituição Exemplo",
+      "previsao_conclusao": "2029"
+    }
+  ],
+  "habilidades": [
+    { "nome": "Python", "nivel": "basico", "tags": ["dev", "ml"] },
+    { "nome": "Git e GitHub", "nivel": "intermediario", "tags": ["dev", "infra"] },
+    { "nome": "HTML e CSS", "nivel": "intermediario", "tags": ["dev"] },
+    { "nome": "Sistemas Operacionais", "nivel": "basico", "tags": ["infra"] }
+  ],
+  "projetos": [
+    {
+      "titulo": "Projeto Exemplo Web",
+      "descricao": "Protótipo web desenvolvido em equipe, com HTML, CSS e JavaScript.",
+      "tecnologias": ["HTML", "CSS", "JavaScript"],
+      "tags": ["dev"]
+    },
+    {
+      "titulo": "Projeto Exemplo Hardware",
+      "descricao": "Montagem e programação de um robô, com peças impressas em 3D.",
+      "tecnologias": ["C++", "Eletrônica"],
+      "tags": ["infra"]
+    }
+  ],
+  "perfis": {
+    "desenvolvimento": {
+      "objetivo": "Estágio em desenvolvimento de software",
+      "tags_prioritarias": ["dev"],
+      "ordem_secoes": ["formacao", "projetos", "habilidades"]
+    },
+    "infraestrutura": {
+      "objetivo": "Estágio em infraestrutura de TI",
+      "tags_prioritarias": ["infra"],
+      "ordem_secoes": ["formacao", "habilidades", "projetos"]
+    }
+  }
+}
