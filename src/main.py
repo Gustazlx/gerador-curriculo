@@ -1,0 +1,1 @@
+print("Olá mundo!, Meu gerador de currículo comeca aqui")
