@@ -1,8 +1,15 @@
 from loader import load_json
-data = load_json("data/curriculo.example.json")
-print(data["habilidades"][3]["nome"])
-
 from validator import validate_data
-print(validate_data({}))
-print(validate_data({"formacao": []}))
-print(validate_data(data))
+
+data = load_json("data/curriculo.example.json")
+
+erros = validate_data(data)
+
+if erros:    
+    print("Erro de validação:")
+    for erro in erros:
+        print(erro)
+
+else:
+    print("Dados validados com sucesso!")
+    
